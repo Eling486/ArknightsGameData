@@ -44,7 +44,7 @@
 [name="临光"]   猛烈冲击，搅乱阵形，破坏火力点，迅速撤退。
 [name="临光"]   ......杜宾，你在考验我，还是在考验——
 [Character(name="char_002_amiya_1#1", name2="char_130_doberm_ex", focus=2)]
-[name="杜宾"]  肉眼可见的威胁远比进退两难容易处理的多。
+[name="杜宾"]  肉眼可见的威胁远比进退两难容易处理得多。
 [name="杜宾"]  我可以把这看作是Dr.{@nickname}的命令吗，阿米娅？
 [Character(name="char_002_amiya_1#1", name2="char_130_doberm_ex", focus=1)]
 [name="阿米娅"]  局势很明了了。我相信博士的选择......
@@ -55,7 +55,7 @@
 [Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
 [name="阿米娅"]  ——我知道。
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   别见外，博士，我没想刁难你。
+[name="杜宾"]  别介意，博士，我没想刁难你。
 [name="杜宾"]   只是，希望你能理解——阿米娅需要更多的学习和成长。
 [name="杜宾"]   站在我的立场上，你也不会允许阿米娅太依靠别人的。
 [name="杜宾"]   不过，我已经认可了你的指挥能力。

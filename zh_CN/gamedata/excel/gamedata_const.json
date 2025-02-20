@@ -871,17 +871,18 @@
     "char_500_noirc",
     "char_503_rang"
   ],
-  "attackMax": 1210.0,
-  "defMax": 826.0,
-  "hpMax": 4225.0,
+  "attackMax": 2000.0,
+  "defMax": 1000.0,
+  "hpMax": 6000.0,
   "reMax": 100.0,
   "diamondToShdRate": 180,
   "requestSameFriendCD": 14400,
-  "baseMaxFriendNum": 15,
+  "baseMaxFriendNum": 65,
   "hardDiamondDrop": 1,
   "instFinDmdShdCost": 80,
   "easyCrystalBonus": 0,
   "diamondMaterialToShardExchangeRatio": 10,
+  "diamondHandbookStageGain": 200,
   "apBuyCost": 1,
   "apBuyThreshold": 999,
   "creditLimit": 300,
@@ -895,7 +896,19 @@
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
   "mainlineEasyDesc": "更轻松的通关环境\n三星首通奖励仅有对应养成类材料\n\n<color=#c6c6c6>剧情体验环境只能继续解锁下一章节的对应剧情体验环境</color>",
   "mainlineNormalDesc": "常规的游玩体验环境\n三星首通奖励含有至纯源石",
+  "rejectSpCharMission": 1669881600,
   "addedRewardDisplayZone": "main_9",
+  "oneDiamondAp": 135,
+  "charRotationPresetMaxCnt": 4,
+  "charRotationSkinListMaxCnt": 20,
+  "defaultCRPresetCharId": "char_002_amiya",
+  "defaultCRPresetCharSkinId": "char_002_amiya#1",
+  "defaultCRPresetBGId": "bg_rhodes_day",
+  "defaultCRPresetThemeId": "tm_rhodes_day",
+  "defaultCRPresetName": "未命名界面配置",
+  "charRotationPresetTrackTs": 1733371200,
+  "uniequipArchiveSysTrackTs": 1705896000,
+  "manufactPromptTime": 3,
   "richTextStyles": {
     "mission.levelname": "<color=#FFDE00>{0}</color>",
     "mission.number": "<color=#FFDE00>{0}</color>",
@@ -925,12 +938,30 @@
     "ro.get": "<color=#0098DC>{0}</color>",
     "ro.lose": "<color=#C82A36>{0}</color>",
     "rolv.rem": "<color=#FF4C22>{0}</color>",
+    "lv.description": "<color=#d8d769>{0}</color>",
+    "lv.extrades": "<color=#d8d769>{0}</color>",
     "lv.item": "<color=#FFFFFF>{0}</color>",
     "lv.rem": "<color=#FFFFFF>{0}</color>",
     "lv.fs": "<color=#FF0000>{0}</color>",
     "lv.sp": "<color=#fd4600>{0}</color>",
     "lv.ez": "<color=#0098dc>{0}</color>",
+    "crisisv2.nag": "<color=#ea9818>{0}</color>",
+    "crisisv2.pos": "<color=#16acaa>{0}</color>",
+    "crisisv2.cra": "<color=#d7181c>{0}</color>",
     "ro1.get": "<color=#E5B684>{0}</color>",
+    "ro2.lose": "<color=#FF6E6E>{0}</color>",
+    "ro2.get": "<color=#59DDDC>{0}</color>",
+    "ro2.virtue": "<color=#0098dc>{0}</color>",
+    "ro2.mutation": "<color=#9266b2>{0}</color>",
+    "ro2.desc": "<color=#6d6d6d>{0}</color>",
+    "ro3.lose": "<color=#FF6E6E>{0}</color>",
+    "ro3.get": "<color=#9ed9fd>{0}</color>",
+    "ro3.redt": "<color=#ff4532>{0}</color>",
+    "ro3.greent": "<color=#4ffaa5>{0}</color>",
+    "ro3.bluet": "<color=#0085ff>{0}</color>",
+    "ro3.bosst": "<color=#ffffff>{0}</color>",
+    "ro4.lose": "<color=#FF6E6E>{0}</color>",
+    "ro4.get": "<color=#28bfe5>{0}</color>",
     "rc.title": "<color=#FFFFFF>{0}</color>",
     "rc.subtitle": "<color=#FFC90E>{0}</color>",
     "rc.em": "<color=#FF7F27>{0}</color>",
@@ -943,11 +974,13 @@
     "ga.limadgacha": "<color=#FF7E1F>{0}</color>",
     "ga.percent": "<color=#FFD800>{0}</color>",
     "ga.attention": "<color=#FF3126>{0}</color>",
+    "ga.classicgacha": "<color=#00A8FF>{0}</color>",
     "attainga.desc": "<color=#FF0000>{0}</color>",
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
     "linkagega.charname": "<color=#FFF6A9>{0}</color>",
     "linkagega.title": "<color=#FF8A00>{0}</color>",
+    "ga.spgacha": "<color=#FF8A00>{0}</color>",
     "limtedga.title": "<color=#FFFFFF>{0}</color>",
     "limtedga.subtitle": "<color=#FFC90E>{0}</color>",
     "limtedga.up": "<color=#FF7F27>{0}</color>",
@@ -959,11 +992,46 @@
     "vc.adgacha": "<color=#0098DC>{0}</color>",
     "vc.attention": "<color=#FFD800>{0}</color>",
     "act.missiontips": "<color=#d9bd6a>{0}</color>",
+    "lv.hdbg": "<color=#7ba61f>{0}</color>",
     "tu.ht": "<color=#ff8d00>{0}</color>",
+    "acdm.award": "<color=#04d3a3>{0}</color>",
+    "acdm.milestone": "<color=#2da186>{0}</color>",
+    "acdm.hudtip": "<color=#04d3a3>{0}</color>",
+    "acdm.buff": "<color=#2da186>{0}</color>",
+    "acdm.tracker": "<color=#2da186>{0}</color>",
+    "lv.act20side": "<color=#F7BC44>{0}</color>",
+    "lv.act20sre": "<color=#F7BC44>{0}</color>",
+    "lv.mhitem": "<color=#A57F5B>{0}</color>",
+    "lv.mhtx": "<color=#1B1B1B>{0}</color>",
+    "lv.mhfs": "<color=#A57F5B>{0}</color>",
+    "cc.miu": "<color=#8F7156>{0}</color>",
+    "ping.low": "<color=#7fa826>{0}</color>",
+    "ping.medium": "<color=#ec7a00>{0}</color>",
+    "ping.high": "<color=#ff3d3d>{0}</color>",
+    "match.success": "<color=#36BBCC>{0}</color>",
+    "map.normal": "<color=#36BBCC>{0}</color>",
+    "map.football": "<color=#36BBCC>{0}</color>",
+    "map.defence": "<color=#36BBCC>{0}</color>",
+    "milestone": "<color=#D4133C>{0}</color>",
+    "dm.award": "<color=#36BBCC>{0}</color>",
+    "dm.condition": "<color=#C9C9C9>{0}</color>",
+    "tutor": "<color=#36BBCC>{0}</color>",
+    "lv.muitem": "<color=#D4133C>{0}</color>",
+    "token.highlight": "<color=#d8741a>{0}</color>",
+    "ba.grt": "<color=#FFAB27>{0}</color>",
+    "ba.exl": "<color=#14F0AF>{0}</color>",
+    "ba.hrd": "<color=#DA2536>{0}</color>",
+    "firework.npc": "<color=#810d17>{0}</color>",
     "act.spreward": "<color=#FF5001>{0}</color>",
     "act.timelimit": "<color=#ffe300>{0}</color>",
     "vc.text": "<color=#898989>{0}</color>",
-    "vc.endtime": "<color=#ff0327>{0}</color>"
+    "vc.endtime": "<color=#ff0327>{0}</color>",
+    "firework.animal": "<color=#0098dc>{0}</color>",
+    "firework.animaldesc_1": "<color=#f05b6d>{0}</color>",
+    "firework.animaldesc_2": "<color=#b7d888>{0}</color>",
+    "firework.animaldesc_3": "<color=#ffc25e>{0}</color>",
+    "firework.animaldesc_4": "<color=#70c0db>{0}</color>",
+    "firework.animaldesc_all": "<color=#ffecb1>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -984,13 +1052,12 @@
   "commonPotentialLvlUpCount": 4,
   "weeklyOverrideDesc": "",
   "voucherDiv": 5,
-  "recruitPoolVersion": 8,
+  "recruitPoolVersion": 18,
   "v006RecruitTimeStep1Refresh": 1577172600,
   "v006RecruitTimeStep2Check": 1577154600,
   "v006RecruitTimeStep2Flush": 1577649600,
   "buyApTimeNoLimitFlag": true,
   "isLMGTSEnabled": true,
-  "crisisUnlockStage": "main_02-10",
   "legacyTime": 1562659200,
   "legacyItemList": [
     {
@@ -1056,9 +1123,16 @@
   "TSO": 1608192000,
   "isDynIllustEnabled": true,
   "isDynIllustStartEnabled": true,
+  "isClassicQCShopEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
+  "isSandboxPermFuncEnabled": true,
+  "isRoguelikeAvgAchieveFuncEnabled": true,
+  "isClassicPotentialItemFuncEnabled": true,
+  "isClassicGachaPoolFuncEnabled": true,
+  "isSpecialGachaPoolFuncEnabled": true,
+  "isVoucherClassicItemDistinguishable": true,
   "voucherSkinRedeem": 1,
-  "voucherSkinDesc": "当某位干员的<color=#ffa633>首个</color>异格上线时，若曾使用<color=#ffa633>源石</color>购买过该干员的时装，则在该干员的<color=#ffa633>首个</color>异格上线后返还通过源石购买的该干员时装件数对应数量的道具<color=#33b5ff>【时装自选凭证】</color>。\n\n若有以下情况，则在异格干员上线后<color=#ffa633>不进行返还</color>：\n1.在某位干员的首个异格干员上线前，使用【时装自选凭证】兑换了原干员的时装。\n2.在某位干员的首个异格干员上线后，使用源石购买了原干员的时装。\n3.在某位干员的首个异格干员上线后，使用【时装自选凭证】兑换了原干员的时装。\n\n【时装自选凭证】仅可以兑换当期时装商店中售卖的时装，且<color=#ffa633>不可兑换</color>含有动态形象的时装。若已购买了时装商店中所有的服装或时装商店中无时装售卖时，则【时装自选凭证】<color=#ffa633>无法使用</color>。\n\n此外，若今后有其他<color=#ffa633>不可使用</color>【时装自选凭证】兑换的时装出现时，届时会告知博士，敬请注意。",
+  "voucherSkinDesc": "【时装自选凭证】仅可以兑换当期时装商店中售卖的时装，且<color=#ffa633>不可兑换</color>含有动态形象的时装。若已购买了时装商店中所有的服装或时装商店中无时装售卖时，则【时装自选凭证】<color=#ffa633>无法使用</color>。\n\n此外，若今后有其他<color=#ffa633>不可使用</color>【时装自选凭证】兑换的时装出现时，届时会告知博士，敬请注意。",
   "charmEquipCount": 5,
   "termDescriptionDict": {
     "ba.sluggish": {
@@ -1094,7 +1168,7 @@
     "ba.fragile": {
       "termId": "ba.fragile",
       "termName": "脆弱",
-      "description": "受到的所有伤害提升相应比例（同名效果取最高）"
+      "description": "受到的物理、法术、真实伤害提升相应比例（同名效果取最高）"
     },
     "ba.shield": {
       "termId": "ba.shield",
@@ -1191,60 +1265,230 @@
       "termName": "浮空",
       "description": "变为空中单位，无法移动、攻击及使用技能；对重量大于3的单位持续时间减半"
     },
+    "ba.physhield": {
+      "termId": "ba.physhield",
+      "termName": "物理护盾",
+      "description": "每层物理护盾可以抵挡一次物理伤害"
+    },
+    "ba.magicfragile": {
+      "termId": "ba.magicfragile",
+      "termName": "法术脆弱",
+      "description": "受到的法术伤害提升相应比例（同名效果取最高）"
+    },
+    "ba.elementfragile": {
+      "termId": "ba.elementfragile",
+      "termName": "元素脆弱",
+      "description": "受到的元素伤害提升相应比例（同名效果取最高）"
+    },
+    "ba.dying": {
+      "termId": "ba.dying",
+      "termName": "重伤",
+      "description": "移速下降且无法被阻挡，10秒后自然死亡，被击杀后使击杀者回复数点技力"
+    },
+    "ba.barrier": {
+      "termId": "ba.barrier",
+      "termName": "屏障",
+      "description": "可以吸收一定数值的伤害"
+    },
+    "ba.weightless": {
+      "termId": "ba.weightless",
+      "termName": "失重",
+      "description": "重量下降一个等级（同名效果不可叠加）"
+    },
+    "ba.berserk": {
+      "termId": "ba.berserk",
+      "termName": "坚忍",
+      "description": "根据已损失的生命值获得相应比例的属性加成，损失一定比例时达最大加成（同类属性取最高）"
+    },
+    "ba.steal": {
+      "termId": "ba.steal",
+      "termName": "偷取",
+      "description": "减少目标的基础属性作为自身加成，目标减少和自身加成的属性不超过指定上限（同类属性取最高）"
+    },
+    "ba.weaken": {
+      "termId": "ba.weaken",
+      "termName": "虚弱",
+      "description": "使目标攻击力降低相应比例（同名效果取最高）"
+    },
+    "ba.dt.apoptosis2": {
+      "termId": "ba.dt.apoptosis2",
+      "termName": "凋亡损伤·我方",
+      "description": "累计满时爆发（普通、精英敌人1000点、领袖2000点累计值），使敌人附加50%<$ba.weaken>虚弱</>但期间逐渐恢复，每秒受到800点元素伤害。15秒冷却"
+    },
+    "ba.epbarrier": {
+      "termId": "ba.epbarrier",
+      "termName": "损伤屏障",
+      "description": "可以吸收一定数值的<$ba.dt.element>元素损伤</>"
+    },
+    "ba.tremble": {
+      "termId": "ba.tremble",
+      "termName": "战栗",
+      "description": "被阻挡后无法进行普通攻击"
+    },
+    "ba.fear": {
+      "termId": "ba.fear",
+      "termName": "恐惧",
+      "description": "无法被阻挡并四散逃跑"
+    },
+    "ba.dt.burning2": {
+      "termId": "ba.dt.burning2",
+      "termName": "灼燃损伤·我方",
+      "description": "累计满时爆发（普通、精英敌人1000点、领袖2000点累计值），敌人立即受到7000点元素伤害且期间法术抗性-20。10秒冷却"
+    },
+    "ba.addash": {
+      "termId": "ba.addash",
+      "termName": "移动",
+      "description": "不退场，以当前血量在目标位置部署"
+    },
+    "ba.magicpoint": {
+      "termId": "ba.magicpoint",
+      "termName": "魔力",
+      "description": "特殊技力，整场战斗继承"
+    },
+    "ba.chant": {
+      "termId": "ba.chant",
+      "termName": "吟唱",
+      "description": "停止攻击一段时间后尝试开启技能，期间被打断则中止"
+    },
+    "ba.laiosteam": {
+      "termId": "ba.laiosteam",
+      "termName": "莱欧斯小队",
+      "description": "包括玛露西尔、森西、莱欧斯、齐尔查克"
+    },
+    "ba.liftoff": {
+      "termId": "ba.liftoff",
+      "termName": "起飞",
+      "description": "不阻挡地面敌人且不会被地面敌人攻击，可以阻挡飞行敌人"
+    },
+    "ba.physicfragile": {
+      "termId": "ba.physicfragile",
+      "termName": "物理脆弱",
+      "description": "受到的物理伤害提升相应比例（同名效果取最高）"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "念力",
-      "description": "由以下干员提供\n迷迭香"
+      "description": "拥有该基建技能的干员\n迷迭香"
     },
     "cc.bd_A_2": {
       "termId": "cc.bd_A_2",
       "termName": "意识实体",
-      "description": "由以下干员提供\n迷迭香"
+      "description": "拥有该基建技能的干员\n迷迭香"
+    },
+    "cc.bd_B_1": {
+      "termId": "cc.bd_B_1",
+      "termName": "徘徊旋律",
+      "description": "拥有该基建技能的干员\n黑键"
+    },
+    "cc.bd_B_2": {
+      "termId": "cc.bd_B_2",
+      "termName": "怅惘和声",
+      "description": "拥有该基建技能的干员\n黑键"
+    },
+    "cc.bd_B_3": {
+      "termId": "cc.bd_B_3",
+      "termName": "无词颂歌",
+      "description": "拥有该基建技能的干员\n塑心"
     },
     "cc.bd_A": {
       "termId": "cc.bd_A",
       "termName": "思维链环",
-      "description": "可影响<$cc.bd_A_1><@cc.rem>念力</></>、<$cc.bd_A_2><@cc.rem>意识实体</></>相关技能\n由以下干员提供\n迷迭香"
+      "description": "可影响<$cc.bd_A_1><@cc.rem>念力</></>、<$cc.bd_A_2><@cc.rem>意识实体</></>相关技能\n由以下干员的基建技能提供\n迷迭香"
+    },
+    "cc.bd_B": {
+      "termId": "cc.bd_B",
+      "termName": "无声共鸣",
+      "description": "可影响<$cc.bd_B_1><@cc.rem>徘徊旋律</></>、<$cc.bd_B_2><@cc.rem>怅惘和声</></>、<$cc.bd_B_3><@cc.rem>无词颂歌</></>相关技能\n由以下干员的基建技能提供\n黑键、塑心、深律"
+    },
+    "cc.bd_C": {
+      "termId": "cc.bd_C",
+      "termName": "巫术结晶",
+      "description": "拥有该基建技能的干员\n截云"
     },
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "感知信息",
-      "description": "可影响<$cc.bd_A><@cc.rem>思维链环</></>相关技能\n由以下干员提供\n迷迭香、夕、令、絮雨、爱丽丝"
+      "description": "可影响<$cc.bd_A><@cc.rem>思维链环</></>、<$cc.bd_B><@cc.rem>无声共鸣</></>相关变量\n由以下干员的基建技能提供\n迷迭香、黑键、夕、令、絮雨、爱丽丝、车尔尼"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "人间烟火",
-      "description": "由以下干员提供\n夕、令、乌有、桑葚"
+      "description": "可影响<$cc.bd_C><@cc.rem>巫术结晶</></>相关技能\n由以下干员的基建技能提供\n夕、令、重岳、乌有、桑葚"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
       "termName": "情报储备",
-      "description": "由以下干员提供\n灰烬"
+      "description": "由以下干员的基建技能提供\n灰烬"
     },
     "cc.bd_tachanka": {
       "termId": "cc.bd_tachanka",
       "termName": "乌萨斯特饮",
-      "description": "由以下干员提供\n战车"
+      "description": "由以下干员的基建技能提供\n战车"
+    },
+    "cc.bd_malist": {
+      "termId": "cc.bd_malist",
+      "termName": "工程机器人",
+      "description": "由以下干员的基建技能提供\n至简"
     },
     "cc.bd_a1_a1": {
       "termId": "cc.bd_a1_a1",
       "termName": "记忆碎片",
-      "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关技能\n由以下干员提供\n絮雨"
+      "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关变量\n由以下干员的基建技能提供\n絮雨"
     },
     "cc.bd_a1_a2": {
       "termId": "cc.bd_a1_a2",
       "termName": "梦境",
-      "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关技能\n由以下干员提供\n爱丽丝"
+      "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关变量\n由以下干员的基建技能提供\n爱丽丝"
+    },
+    "cc.bd_a1_a3": {
+      "termId": "cc.bd_a1_a3",
+      "termName": "小节",
+      "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关变量\n由以下干员的基建技能提供\n车尔尼"
+    },
+    "cc.bd.costdrop": {
+      "termId": "cc.bd.costdrop",
+      "termName": "心情落差",
+      "description": "干员自身心情上限与当前心情值的差值"
+    },
+    "cc.bd_felyne": {
+      "termId": "cc.bd_felyne",
+      "termName": "木天蓼",
+      "description": "可影响<$cc.bd_felyne_1><@cc.rem>可爱的艾露猫</></>、<$cc.bd_felyne_2><@cc.rem>可靠的随从们</></>相关技能\n由以下干员的基建技能提供\n火龙S黑角、麒麟R夜刀"
+    },
+    "cc.bd_felyne_1": {
+      "termId": "cc.bd_felyne_1",
+      "termName": "可爱的艾露猫",
+      "description": "拥有该基建技能的干员\n泰拉大陆调查团"
+    },
+    "cc.bd_felyne_2": {
+      "termId": "cc.bd_felyne_2",
+      "termName": "可靠的随从们",
+      "description": "拥有该基建技能的干员\n泰拉大陆调查团"
+    },
+    "cc.bd_dungeon": {
+      "termId": "cc.bd_dungeon",
+      "termName": "魔物料理",
+      "description": "由以下干员的基建技能提供\n森西"
     },
     "cc.m.var1": {
       "termId": "cc.m.var1",
       "termName": "回收利用",
-      "description": "由以下干员提供\n红云"
+      "description": "拥有该基建技能的干员\n红云"
     },
     "cc.m.var2": {
       "termId": "cc.m.var2",
       "termName": "配合意识",
-      "description": "由以下干员提供\n槐琥"
+      "description": "拥有该基建技能的干员\n槐琥"
+    },
+    "cc.t.snsant1": {
+      "termId": "cc.t.snsant1",
+      "termName": "天道酬勤·α",
+      "description": "拥有该基建技能的干员\n雪雉"
+    },
+    "cc.t.snsant2": {
+      "termId": "cc.t.snsant2",
+      "termName": "天道酬勤·β",
+      "description": "拥有该基建技能的干员\n雪雉"
     },
     "cc.g.lgd": {
       "termId": "cc.g.lgd",
@@ -1259,22 +1503,37 @@
     "cc.g.ussg": {
       "termId": "cc.g.ussg",
       "termName": "乌萨斯学生自治团",
-      "description": "包含以下干员\n早露、凛冬、真理、古米"
+      "description": "包含以下干员\n早露、凛冬、真理、古米、烈夏"
+    },
+    "cc.g.A1": {
+      "termId": "cc.g.A1",
+      "termName": "A1小队",
+      "description": "包含以下干员\n芙蓉、炎熔、米格鲁、芬、克洛丝"
     },
     "cc.g.R6": {
       "termId": "cc.g.R6",
       "termName": "彩虹小队",
-      "description": "包含以下干员\n灰烬、战车、闪击、霜华"
+      "description": "包含以下干员\n灰烬、战车、闪击、霜华、艾拉、医生、双月、导火索"
+    },
+    "cc.g.Attack": {
+      "termId": "cc.g.Attack",
+      "termName": "进攻方",
+      "description": "包含以下干员\n灰烬、闪击、双月、导火索"
+    },
+    "cc.g.Defence": {
+      "termId": "cc.g.Defence",
+      "termName": "防守方",
+      "description": "包含以下干员\n战车、霜华、艾拉、医生"
     },
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "异格",
-      "description": "包含以下干员\n炎狱炎熔、浊心斯卡蒂、假日威龙陈、耀骑士临光、寒芒克洛丝、归溟幽灵鲨"
+      "description": "包含所有异格干员"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
       "termName": "深海猎人",
-      "description": "包含以下干员\n歌蕾蒂娅、斯卡蒂、幽灵鲨、安哲拉"
+      "description": "包含以下干员\n歌蕾蒂娅、斯卡蒂、幽灵鲨、安哲拉、乌尔比安"
     },
     "cc.g.psk": {
       "termId": "cc.g.psk",
@@ -1284,12 +1543,37 @@
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
       "termName": "喀兰贸易",
-      "description": "包含以下干员\n银灰、灵知、初雪、崖心、角峰、讯使、耶拉、极光"
+      "description": "包含以下干员\n银灰、灵知、初雪、崖心、角峰、讯使、耶拉、极光、锏"
     },
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "岁",
-      "description": "包含以下干员\n年、夕、令"
+      "description": "包含以下干员\n年、夕、令、重岳、黍、余"
+    },
+    "cc.g.glasgow": {
+      "termId": "cc.g.glasgow",
+      "termName": "格拉斯哥帮",
+      "description": "包含以下干员\n推进之王、摩根、达格达、因陀罗"
+    },
+    "cc.g.rh": {
+      "termId": "cc.g.rh",
+      "termName": "莱茵生命",
+      "description": "包含以下干员\n赫默、伊芙利特、塞雷娅、白面鸮、梅尔、麦哲伦、多萝西、星源、缪尔赛思"
+    },
+    "cc.g.sm": {
+      "termId": "cc.g.sm",
+      "termName": "萨米",
+      "description": "包含以下干员\n远山、柏喙、雪绒、提丰、寒檀、凛视"
+    },
+    "cc.g.bs": {
+      "termId": "cc.g.bs",
+      "termName": "黑钢国际",
+      "description": "包含以下干员\n雷蛇、芙兰卡、杰西卡、香草、杏仁、寻澜"
+    },
+    "cc.g.siracusa": {
+      "termId": "cc.g.siracusa",
+      "termName": "叙拉古",
+      "description": "包含以下干员\n安洁莉娜、拉普兰德、普罗旺斯、红云、布洛卡、巫恋、铃兰、贾维、奥斯塔、斥罪、子月、伺夜、阿罗玛、忍冬、裁度、荒芜拉普兰德"
     },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
@@ -1306,6 +1590,36 @@
       "termName": "特殊叠加规则",
       "description": "无法与<$cc.m.var2><@cc.rem>配合意识</></>进行叠加，且优先生效\n无法与<$cc.m.pow1><@cc.rem>自动化·α</></>、<$cc.m.pow2><@cc.rem>自动化·β</></>、<$cc.m.pow3><@cc.rem>仿生海龙</></>进行叠加，且清零效果优先生效"
     },
+    "cc.c.room1": {
+      "termId": "cc.c.room1",
+      "termName": "部分设施",
+      "description": "包含以下设施\n发电站、人力办公室、会客室"
+    },
+    "cc.c.room2": {
+      "termId": "cc.c.room2",
+      "termName": "其他设施",
+      "description": "包含以下设施\n发电站、制造站、贸易站、人力办公室、会客室"
+    },
+    "cc.c.room3": {
+      "termId": "cc.c.room3",
+      "termName": "工作场所",
+      "description": "包含以下设施\n发电站、制造站、贸易站、人力办公室、会客室、控制中枢、训练室"
+    },
+    "cc.c.skill": {
+      "termId": "cc.c.skill",
+      "termName": "部分技能",
+      "description": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春、金盏花诗会、捍卫之道"
+    },
+    "cc.t.strong2": {
+      "termId": "cc.t.strong2",
+      "termName": "特殊叠加规则",
+      "description": "无法单独与<$cc.t.snsant1><@cc.rem>天道酬勤·α</></>、<$cc.t.snsant2><@cc.rem>天道酬勤·β</></>进行叠加，且优先生效\n当<$cc.t.snsant1><@cc.rem>天道酬勤·α</></>、<$cc.t.snsant2><@cc.rem>天道酬勤·β</></>与其他技能进行叠加时，该技能会对此叠加效果进行叠加"
+    },
+    "cc.c.sui2_1": {
+      "termId": "cc.c.sui2_1",
+      "termName": "特殊比较规则",
+      "description": "在<@cc.kw>公事公办</>，<@cc.kw>孤光共照</>，<@cc.kw>巴别塔之帜</>提供的<$cc.c.room2><@cc.kw>其他设施</></>每小时心情恢复值中取最高生效"
+    },
     "cc.m.pow1": {
       "termId": "cc.m.pow1",
       "termName": "自动化·α",
@@ -1321,8 +1635,8 @@
       "termName": "仿生海龙",
       "description": "由以下干员提供\n温蒂"
     },
-    "cc.t.line_gold": {
-      "termId": "cc.t.line_gold",
+    "cc.t.flow_gold": {
+      "termId": "cc.t.flow_gold",
       "termName": "赤金生产线",
       "description": "每有<@cc.kw>1</>间<@cc.kw>制造站</>生产<@cc.kw>赤金</>，则赤金生产线<@cc.kw>+1</>"
     },
@@ -1336,23 +1650,159 @@
       "termName": "业报",
       "description": "每当加工心情消耗<@cc.kw>8</>的配方未产出副产品时，所消耗的每<@cc.kw>1</>点心情转化为<@cc.kw>1</>点<@cc.kw>业报</>"
     },
+    "cc.t.accmuguard1": {
+      "termId": "cc.t.accmuguard1",
+      "termName": "武道",
+      "description": "协助专精训练至1级时累计<@cc.kw>1</>点、2级时累计<@cc.kw>2</>点、3级时累计<@cc.kw>3</>点，累计上限为<@cc.kw>3</>点（协助者心情为0时，无法累计或消耗）"
+    },
     "cc.sk.manu1": {
       "termId": "cc.sk.manu1",
       "termName": "标准化类技能",
       "description": "包含以下技能\n标准化·α、标准化·β"
     },
+    "cc.sk.manu2": {
+      "termId": "cc.sk.manu2",
+      "termName": "莱茵科技类技能",
+      "description": "包含以下技能\n莱茵科技·α、莱茵科技·β、莱茵科技·γ"
+    },
+    "cc.sk.manu3": {
+      "termId": "cc.sk.manu3",
+      "termName": "红松骑士团类技能",
+      "description": "包含以下技能\n红松骑士团·α、红松骑士团·β"
+    },
+    "cc.sk.manu4": {
+      "termId": "cc.sk.manu4",
+      "termName": "金属工艺类技能",
+      "description": "包含以下技能\n金属工艺·α、金属工艺·β"
+    },
     "cc.tag.op": {
       "termId": "cc.tag.op",
       "termName": "作业平台",
-      "description": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号"
+      "description": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0"
     },
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "骑士",
-      "description": "包含以下干员\n耀骑士临光、临光（互斥）、瑕光、鞭刃、焰尾、远牙、灰毫、野鬃、正义骑士号、砾"
+      "description": "包含以下干员\n耀骑士临光、临光、瑕光、鞭刃、焰尾、远牙、灰毫、野鬃、正义骑士号、砾、薇薇安娜"
+    },
+    "cc.tag.durin": {
+      "termId": "cc.tag.durin",
+      "termName": "杜林族",
+      "description": "包含以下干员\n至简、桃金娘、褐果、杜林、特克诺"
+    },
+    "cc.tag.mh": {
+      "termId": "cc.tag.mh",
+      "termName": "怪物猎人小队",
+      "description": "包含以下干员\n火龙S黑角、麒麟R夜刀、泰拉大陆调查团"
+    },
+    "cc.tag.dungeon": {
+      "termId": "cc.tag.dungeon",
+      "termName": "莱欧斯小队",
+      "description": "包含以下干员\n玛露西尔、莱欧斯、齐尔查克、森西"
+    },
+    "cc.gvial": {
+      "termId": "cc.gvial",
+      "termName": "嘉维尔",
+      "description": "包含以下干员\n百炼嘉维尔、嘉维尔"
+    },
+    "cc.tra.pepe": {
+      "termId": "cc.tra.pepe",
+      "termName": "特别独占订单",
+      "description": "由佩佩提供的特殊贵金属订单，该订单的获取时长固定，收益恒定，所需赤金交付数为0"
     }
   },
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
-  "dataVersion": "27.13.0",
-  "resPrefVersion": "27d11d0"
+  "dataVersion": "58.6.0",
+  "resPrefVersion": "58d0d0",
+  "announceWebBusType": "ak_announcement",
+  "videoPlayerWebBusType": "ak_video_player",
+  "gachaLogBusType": "ak_gacha_log",
+  "defaultMinContinuousBattleTimes": 1,
+  "defaultMaxContinuousBattleTimes": 6,
+  "continuousActionOpen": true,
+  "subProfessionDamageTypePairs": {
+    "notchar1": "NONE",
+    "notchar2": "NONE",
+    "none1": "NONE",
+    "none2": "NONE",
+    "pioneer": "PHYSICAL",
+    "charger": "PHYSICAL",
+    "tactician": "PHYSICAL",
+    "bearer": "PHYSICAL",
+    "centurion": "PHYSICAL",
+    "fighter": "PHYSICAL",
+    "artsfghter": "MAGICAL",
+    "instructor": "PHYSICAL",
+    "lord": "PHYSICAL",
+    "sword": "PHYSICAL",
+    "musha": "PHYSICAL",
+    "fearless": "PHYSICAL",
+    "reaper": "PHYSICAL",
+    "librator": "PHYSICAL",
+    "protector": "PHYSICAL",
+    "guardian": "PHYSICAL",
+    "unyield": "PHYSICAL",
+    "artsprotector": "PHYSICAL",
+    "duelist": "PHYSICAL",
+    "fortress": "PHYSICAL",
+    "fastshot": "PHYSICAL",
+    "closerange": "PHYSICAL",
+    "aoesniper": "PHYSICAL",
+    "longrange": "PHYSICAL",
+    "reaperrange": "PHYSICAL",
+    "siegesniper": "PHYSICAL",
+    "bombarder": "PHYSICAL",
+    "corecaster": "MAGICAL",
+    "splashcaster": "MAGICAL",
+    "funnel": "MAGICAL",
+    "phalanx": "NONE",
+    "mystic": "MAGICAL",
+    "chain": "MAGICAL",
+    "blastcaster": "MAGICAL",
+    "physician": "HEAL",
+    "ringhealer": "HEAL",
+    "healer": "HEAL",
+    "wandermedic": "HEAL",
+    "slower": "MAGICAL",
+    "underminer": "MAGICAL",
+    "bard": "NONE",
+    "blessing": "MAGICAL",
+    "summoner": "MAGICAL",
+    "craftsman": "PHYSICAL",
+    "executor": "PHYSICAL",
+    "pusher": "PHYSICAL",
+    "stalker": "PHYSICAL",
+    "hookmaster": "PHYSICAL",
+    "geek": "PHYSICAL",
+    "merchant": "PHYSICAL",
+    "traper": "PHYSICAL",
+    "dollkeeper": "PHYSICAL",
+    "incantationmedic": "MAGICAL",
+    "agent": "PHYSICAL",
+    "shotprotector": "PHYSICAL",
+    "chainhealer": "HEAL",
+    "crusher": "PHYSICAL",
+    "ritualist": "MAGICAL",
+    "hunter": "PHYSICAL",
+    "primcaster": "MAGICAL",
+    "loopshooter": "PHYSICAL",
+    "hammer": "PHYSICAL",
+    "alchemist": "PHYSICAL",
+    "primprotector": "PHYSICAL",
+    "skywalker": "PHYSICAL",
+    "soulcaster": "MAGICAL"
+  },
+  "classicProtectChar": [
+    "char_252_bibeak",
+    "char_336_folivo",
+    "char_402_tuye",
+    "char_4043_erato"
+  ],
+  "birthdaySettingDesc": "检测到信息缺失，请补全你的出生日期。\n<size=21><color=#0075a9>罗德岛将在生日当天通过邮件为你配发额外物资。</color></size>",
+  "birthdaySettingConfirmDesc": "Dr.{0}，你的出生日期是{1}月{2}日，是否立即提交？\n\n<color=#b84040>生日确定后将无法更改</color>",
+  "birthdaySettingLeapConfirmDesc": "Dr.{0}，你的出生日期是{1}月{2}日，是否立即提交？\n\n<color=#b84040>生日确定后将无法更改，在非闰年，你的物资将在{3}月{4}日通过邮件配发</color>",
+  "leapBirthdayRewardMonth": 2,
+  "leapBirthdayRewardDay": 28,
+  "birthdaySettingShowStageId": "tr_05",
+  "isBirthdayFuncEnabled": true
 }
